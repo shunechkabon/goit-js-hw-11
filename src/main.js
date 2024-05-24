@@ -39,5 +39,5 @@ form.addEventListener('submit', (event) => {
         hideLoader(loader);
         showError('Something went wrong. Please try again later.');
         console.error(error);
-    });
+        });
 });
