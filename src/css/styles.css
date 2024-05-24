@@ -83,8 +83,6 @@ button {
 
 #gallery li {
   width: calc((100% - 48px) / 3);
-
-  border-bottom: 1px solid #808080;
   background: #FFF;
 }
 
@@ -92,6 +90,11 @@ button {
   display: flex;
   gap: 32px;
   text-align: center;
+  border-left: 1px solid #808080;
+  border-right: 1px solid #808080;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 1px solid #808080;
 }
 
 .info p span {
@@ -99,7 +102,9 @@ button {
 }
 
 #gallery img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  width: 450px;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  object-fit: cover;
 }
